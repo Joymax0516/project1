@@ -1,0 +1,184 @@
+body{
+  background:#E1FFEE;
+  height: 100%;
+  text-align: center;
+}
+
+
+
+@font-face {
+  font-family: 'Decovar Regular24';
+  src: url('Decovar-VF.ttf');
+}
+
+html {
+  height: 100%;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.6rem;
+  margin: 0;
+  font-size: 5vw;
+  position: relative;
+  font-weight: 400;
+  font-family: 'Decovar Regular24';
+  font-variation-settings: 'INLN' 400, 'SWRM' 1000;
+  background-image: url('img/grass_bg.jpeg');
+  background-size: 30%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(42, 67, 8, 0.4);
+
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  font-size: 3vw;
+  position: relative;
+  font-weight: 400;
+  font-family: 'Decovar Regular24';
+  font-variation-settings: 'INLN' 400, 'SWRM' 1000;
+  background-image: url('img/grass_bg.jpeg');
+  background-size: 30%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(42, 67, 8, 0.4);
+
+}
+
+
+
+
+.board {
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.board:hover {
+  cursor: url("img/hammer.ico"),auto;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.item img{
+  width: 97%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.item .mouse{
+  width: 65%;
+}
+
+.item .hit{
+  width:75%;
+}
+
+.item .hole{
+  display: block;
+}
+
+
+.square{
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor:pointer;
+  user-select: none;
+  letter-spacing: 1rem;
+  text-indent: 1rem;
+  border-radius: 20px;
+  border: white;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #f1c40f;
+  text-shadow: -2px 2px 2px rgb(209 132 0),
+  -2px 2px 2px rgb(209 132 0),
+  -2px 2px 2px rgb(209 132 0),
+  -2px 2px 2px rgb(209 132 0),
+  -2px 2px 2px rgb(209 132 0),
+  -2px 2px 2px rgb(209 132 0);
+  box-shadow: 0px 15px 0px 0px #f39c12;
+  transition: all .5s;
+}
+
+.btn-list {
+  display: grid;
+  gap: 40px;
+  padding: 50px;
+}
+
+
+
+
+button:hover {
+  background-color: #fcdc5e;
+}
+
+button:active {
+  transform: translate(0, 4px);
+  box-shadow: 0px 1px 0px 0px #f39c12;
+}
+
+.data-box {
+  gap: 60px;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  font-size: 2vw;
+  position: relative;
+  font-weight: 400;
+  font-family: 'Decovar Regular24';
+  font-variation-settings: 'INLN' 400, 'SWRM' 1000;
+  background-image: url('img/grass_bg.jpeg');
+  background-size: 30%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(42, 67, 8, 0.4);
+}
