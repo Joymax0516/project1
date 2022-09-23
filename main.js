@@ -33,6 +33,7 @@ function init() {
   clearResult();
   score = 0;
   scoreBox.innerHTML = score;
+  time = 45
   timeBoxEl.innerHTML = 45;
 }
 
