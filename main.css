@@ -63,6 +63,53 @@ h3 {
 }
 
 
+#win{
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1;
+}
+
+#lose{
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1;
+}
+
+#cry{
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 2;
+}
+
+#smile {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index:2;
+}
 
 
 .board {
@@ -76,6 +123,7 @@ h3 {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px 200px;
+  z-index: 0;
 }
 
 .board:hover {
@@ -95,6 +143,7 @@ h3 {
   top: 50%;
   transform: translate(-50%, -50%);
   display: none;
+  z-index: 0;
 }
 
 .item .mouse{
@@ -107,6 +156,10 @@ h3 {
 
 .item .hole{
   display: block;
+}
+
+.item .bomb{
+  width: 50%
 }
 
 
