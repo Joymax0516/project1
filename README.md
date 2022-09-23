@@ -1,6 +1,7 @@
 Whack-A-Mole
 ====
 By Jiayi(Joy) Zhao
+
 Overview
 ------
 In whack-a-mole game, there are 9 holes. We randomly generate mice and bombs in those holes. If the user clicks a mouse, they will gain 100 scores. If the user clicks a bomb, they will lose 200 scores. The user will win if they get more than 1500 scores Otherwise, they will lose. 
