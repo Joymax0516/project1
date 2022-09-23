@@ -24,4 +24,5 @@ Next Steps
 * Create a mobile version
 * Create easy and hard mode
 * Improve the UI design
+* Add the limit of mice numbers
 
