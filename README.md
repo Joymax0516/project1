@@ -1,6 +1,6 @@
 Whack-A-Mole
 ====
-By Jiayi(Joy) Zhao
+By Jiayi Zhao
 
 Overview
 ------
